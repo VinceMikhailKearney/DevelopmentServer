@@ -1,0 +1,7 @@
+Django==1.10.1
+foreman==0.9.7
+futures==3.0.5
+gunicorn==19.6.0
+requests==2.11.1
+requests-futures==0.9.7
+whitenoise==3.2.1
