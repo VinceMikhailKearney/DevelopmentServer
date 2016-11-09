@@ -9,8 +9,8 @@ venv:
 run:
 	$(ENTER_VENV); python manage.py runserver
 
-heroku:
-	heroku open
+heroku.leaders:
+	heroku open leaders/mlas
 
 heroku.collect.static:
 	heroku run python manage.py collectstatic
