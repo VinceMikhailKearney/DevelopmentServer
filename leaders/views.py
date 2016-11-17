@@ -23,3 +23,6 @@ def fetchMlas(request):
         mlas_array.append(newDict)
 
     return JsonResponse({ "response": mlas_array })
+
+def niamh(request):
+    return JsonResponse({"Who does Vince love?": "Vince loves Niamh <3"})
