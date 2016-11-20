@@ -9,6 +9,9 @@ venv:
 run:
 	$(ENTER_VENV); python manage.py runserver
 
+heroku.local:
+	heroku local web
+
 heroku.leaders:
 	heroku open leaders/mlas
 
