@@ -1,0 +1,57 @@
+[
+  {
+    "name": "DUP",
+    "image_url": "http://ichef-1.bbci.co.uk/news/1024/media/images/81702000/jpg/_81702664_duplogo.jpg",
+    "twitter_handle": "@duponline"
+  },
+  {
+    "name": "SF",
+    "image_url": "http://ichef.bbci.co.uk/news/1024/media/images/81703000/jpg/_81703448_sinnfeinlogouse.jpg",
+    "twitter_handle": "@sinnfeinireland"
+  },
+  {
+    "name": "SDLP",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/a/a5/Social_Democratic_and_Labour_Party.png",
+    "twitter_handle": "@SDLPlive"
+  },
+  {
+    "name": "UUP",
+    "image_url": "http://uup.org/assets/_CGSmartImage/logo-9a0e51b933321fa02499e80be42390ff.jpg",
+    "twitter_handle": "@uuponline"
+  },
+  {
+    "name": "APNI",
+    "image_url": "http://www.belfasttelegraph.co.uk/incoming/article30969355.ece/ALTERNATES/h342/alliance%20logo.jpg",
+    "twitter_handle": "@allianceparty"
+  },
+  {
+    "name": "TUV",
+    "image_url": "https://ichef.bbci.co.uk/images/ic/640x360/p02n5rdp.jpg",
+    "twitter_handle": "@TUVonline"
+  },
+  {
+    "name": "GPNI",
+    "image_url": "https://www.greenparty.org.uk/assets/logos/visual-identity/GPLogoNoStrapGREEN72dpi.png",
+    "twitter_handle": "@TheGreenParty"
+  },
+  {
+    "name": "UKIP",
+    "image_url": "http://i2.mirror.co.uk/incoming/article5604736.ece/ALTERNATES/s615b/ukip.jpg",
+    "twitter_handle": "@UKIP"
+  },
+  {
+    "name": "NI21",
+    "image_url": "https://pbs.twimg.com/profile_images/469049731729993728/FRpDozYP.jpeg",
+    "twitter_handle": "@NI21Youth"
+  },
+  {
+    "name": "PUP",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Progressive_Unionist_Party_logo.png/250px-Progressive_Unionist_Party_logo.png",
+    "twitter_handle": "@OfficialPUP"
+  },
+  {
+    "name": "PBPA",
+    "image_url": "https://voteproudly2016.files.wordpress.com/2016/04/pbp-logo.jpg",
+    "twitter_handle": "@pb4p"
+  }
+]
