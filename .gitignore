@@ -2,6 +2,7 @@ venv
 *.pyc
 .DS_Store
 .idea
+.idea/localLeaders.iml
 staticfiles
 .env
 build
