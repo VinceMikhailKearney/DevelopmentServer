@@ -1,12 +1,13 @@
 from django.http import JsonResponse
 from django.conf import settings
-import urllib2
+from urllib.request import urlopen
 import json
 import csv
 
 def fetchMlas(request):
-    req = urllib2.Request('http://data.niassembly.gov.uk/api/members/')
-    file = urllib2.build_opener().open(req)
+    # req = urllib2.Request('http://data.niassembly.gov.uk/api/members/')
+    # file = urllib2.build_opener().open(req)
+    file = urlopen('http://data.niassembly.gov.uk/api/members/')
     jsonResp = json.loads(file.read())
 
     mlas_array = []
