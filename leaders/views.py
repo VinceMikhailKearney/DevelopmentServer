@@ -44,6 +44,3 @@ def fetchParties(request):
     with open('%s/party_json.json' % settings.BASE_DIR, 'r') as json_file:
         json_data = json.load(json_file)
         return JsonResponse({"response": json_data})
-
-def niamh(request):
-    return JsonResponse({"Who does Vince love?": "Vince loves Niamh <3"})
