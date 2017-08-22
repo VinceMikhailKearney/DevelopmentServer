@@ -9,11 +9,13 @@ def local_ping(request):
     return JsonResponse({"status": "ok", "result": "Success"})
 
 def fetchMlas(request):
-    file = urlopen('http://data.niassembly.gov.uk/api/members/')
-    jsonResp = json.loads(file.read())
+    # file = urlopen('http://data.niassembly.gov.uk/api/members/')
+    # jsonResp = json.loads(file.read())
+    file = open('%s/JSON/MLAs.json' % settings.BASE_DIR, 'r')
+    json_local = json.load(file)
 
     mlas_array = []
-    for object in jsonResp:
+    for object in json_local:
         newDict = {}
         newDict['key'] = object['MemberPersonId']
         newDict['firstName'] = object['MemberFirstName']
