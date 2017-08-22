@@ -31,6 +31,11 @@ def fetchMlas(request):
 
     return JsonResponse({ "response": mlas_array })
 
+def plainMlaData(request):
+    file = open('%s/JSON/MLAs.json' % settings.BASE_DIR, 'r')
+    json_local = json.load(file)
+    return JsonResponse({"response": json_local})
+
 def checkForTwitter(first, last):
     return checkForData(first, last, 13)
 
