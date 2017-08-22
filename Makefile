@@ -3,11 +3,11 @@
 ENTER_VENV := . venv/bin/activate
 
 venv:
-	virtualenv -p /usr/bin/python2.7 venv
-	$(ENTER_VENV); pip install -r requirements.txt
+	virtualenv -p python3 venv
+	$(ENTER_VENV); pip3 install -r requirements.txt
 
 run:
-	$(ENTER_VENV); python manage.py runserver
+	$(ENTER_VENV); python3 manage.py runserver
 
 heroku.local:
 	heroku local web
