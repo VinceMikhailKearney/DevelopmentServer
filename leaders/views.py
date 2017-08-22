@@ -9,8 +9,6 @@ def local_ping(request):
     return JsonResponse({"status": "ok", "result": "Success"})
 
 def fetchMlas(request):
-    # req = urllib2.Request('http://data.niassembly.gov.uk/api/members/')
-    # file = urllib2.build_opener().open(req)
     file = urlopen('http://data.niassembly.gov.uk/api/members/')
     jsonResp = json.loads(file.read())
 
