@@ -1,6 +1,6 @@
 from django.http import JsonResponse
 from django.conf import settings
-from urllib.request import urlopen
+# from urllib.request import urlopen
 import json
 import csv
 
