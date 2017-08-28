@@ -26,7 +26,11 @@ def fetchMlas(request):
         newDict['constituency'] = object['ConstituencyName']
         newDict['imageURL'] = object['MemberImgUrl']
         newDict['email'] = str(checkForEmail(newDict['firstName'], newDict['lastName']))
+        if newDict['email'] == "None":
+            newDict['email'] = ""
         newDict['twitter'] = str(checkForTwitter(newDict['firstName'], newDict['lastName']))
+        if newDict['twitter'] == "None":
+            newDict['twitter'] = ""
         mlas_array.append(newDict)
 
     return JsonResponse({ "response": mlas_array })
